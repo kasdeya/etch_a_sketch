@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer> </script>
+  </head>
+  <body>
+
+    <h1 class="title">Etch a Sketch</h1>
+    <div id="menu">
+    <input id="colorPicker" type="color" value="#333" />
+    <button id="clear">clear</button>
+        <div id="sizeValue" class="size-value">16 x 16</div>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="64" value="16" class="slider" id="sizeSlider">
+    </div>
+    </div>
+
+    <div id="container" class="center" draggable="false" ondragstart="return false;" ondrop="return false;"></div>
+  
+  </body>
+</html>
